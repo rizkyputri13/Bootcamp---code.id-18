@@ -13,7 +13,7 @@ app.use('*',responseNotFound)
 
 function responseText(req,res) {
     res.setHeader('Content-Type','text/plain')
-    res.end('Hello NodeJS Batch 15')
+    res.end('Hello NodeJS Batch 18')
 }
 
 function responseJson(req,res) {
